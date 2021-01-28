@@ -1,9 +1,4 @@
-numbers = [1,2,3,4,5,6]
-
-for item in numbers : 
-    print(item)
-
-i = 0
-while i < len(numbers):
-    print(numbers[i])
-    i = i+1
+numbers = (1,2,2,2,3,3)
+# numbers[0] = 5      TypeError: 'tuple' object does not support item assignment
+# numbers.count(3)   -> 2
+print(numbers)
