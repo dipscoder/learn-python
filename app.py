@@ -1,8 +1,8 @@
-i = 1
-# while i <= 1_000:
-#     print(i)
-#     i = i + 1
+names = ["Dipesh","Jon","Raj","Monica","Phoebe"]
 
-while i <= 10:
-    print(i * '*')
-    i = i + 1
+print(names)
+print(names[0])     #Dipesh
+print(names[-1])    #Phoebe
+print(names[-2])    #Monica
+print(names[0:3])   # 0 -> 2
+
