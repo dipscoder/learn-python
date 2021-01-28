@@ -1,11 +1,14 @@
-# x = 10 + 3 
-# x = 10 - 3
-# x = 10 * 3
-# x = 10 % 3    returns remainder
-# x = 10 / 3    returns 3.333333333333335
-# x = 10 // 3   returns whole number - 3
-# x = 10 ** 3   returns 1000- 10 raise to 3
-x = 10
-# x = x + 3
-x += 3
-print(x)
+weight = float(input("Weight: "))
+option = input("(K)g or (L)bs ? ")
+
+# m(lb) = m(kg) / 0.45359237
+
+if option == 'k' or option == 'K' :
+    lbs = weight / 0.45359237
+    print("Weight in lbs "+str(lbs))
+elif option == 'l' or option == 'L' : 
+    kg = weight * 0.45359237
+    print("Weight in kg "+str(kg))
+else: 
+    print("Enter valid option")
+
