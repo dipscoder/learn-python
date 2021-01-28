@@ -1,9 +1,9 @@
-names = ["Dipesh","Jon","Raj","Monica","Phoebe"]
+numbers = [1,2,3,4,5,6]
 
-# names.append("yo")  ['Dipesh', 'Jon', 'Raj', 'Monica', 'Phoebe', 'yo']
-# names.insert(0,"first")   ['first', 'Dipesh', 'Jon', 'Raj', 'Monica', 'Phoebe']
-# names.remove("Jon")     ['Dipesh', 'Raj', 'Monica', 'Phoebe']
-# names.clear()   []
+for item in numbers : 
+    print(item)
 
-# print("Dipesh" in names)    True
-print(len(names))    
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i = i+1
